@@ -14,3 +14,12 @@
   - create a list
 
 - show a list
+
+- i need a model
+- i need a controller
+- i should a generate resource
+
+Does it impact the DB?
+Does it impact my URLs? '/lists/1' #
+
+# Step whatever: Fix Down Arrow on Make a list form
