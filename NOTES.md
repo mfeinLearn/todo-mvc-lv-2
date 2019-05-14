@@ -24,4 +24,39 @@ Does it impact my URLs? '/lists/1' #
 
 # Step 3: Add Items to a List
 
+  - Make the items in a list real
+    - a list has many items and every item belongs a list.
+
+Does it impact the DB? - I probably a items table -
+associated with a list.
+
+lists
+2     Shopping List
+
+items
+id    description   list_id
+1     Milk          2
+1     Cookies       2
+
+CREATE ACTION for an ITEM in a LIST -
+What is the URL / HTTP method for that?
+
+- The form is already present in the list show page.
+- What URL does this form imply?
+
+POST /items/:id/items  #=> Doesn't describe which list we are adding an item to?
+
+An item doesn't exist in our application outside of the context of the list
+it belongs to
+
+Nested Resource - Items are nested in terms of URLs under their parent list.
+
+Does it impact my URLs? '/lists/1' #
+  - I probably a items table - associated with a list.
+
+# Step 4: Adding Validations
+
+Validate that lists have a name
+Validate that items have a description.
+
 # Step whatever: Fix Down Arrow on Make a list form
