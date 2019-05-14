@@ -59,4 +59,9 @@ Does it impact my URLs? '/lists/1' #
 Validate that lists have a name
 Validate that items have a description.
 
+# Step 5: I want to add state (complete, incomplete) to Items in a List
+  - Marking items as complete or incomplete.
+
+# Step 6: Deleting Items from a list
+
 # Step whatever: Fix Down Arrow on Make a list form
